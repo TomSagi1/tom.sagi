@@ -1,0 +1,14 @@
+* {
+    color: gray;
+    background-color: blue;
+    font-size: 20px;	
+    text-align: center;
+}
+h1{
+    color:red;
+    font-size: 30px;
+
+}
+.center{
+    color:green;
+}
