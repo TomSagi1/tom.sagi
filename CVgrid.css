@@ -21,8 +21,15 @@ body {
     grid-auto-rows: min-content;
 }
 
+@keyframes changecolor {
+    from{background-color: rgb(150, 229, 217);}
+    to{background-color: rgb(150, 240, 20);}
+}
+
 #pers{
     background-color: rgb(150, 229, 217);
+    animation-name: changecolor;
+    animation-duration: 3s;
     padding: 40px;
     border-radius: 50px;
     box-shadow: 20px 20px rgba(80, 70, 45, 0.801);
@@ -30,8 +37,11 @@ body {
     grid-column: 8/16;
 }
 
+
 #about {
     background-color: rgb(150, 229, 217);
+    animation-name: changecolor;
+    animation-duration: 3s;
     padding: 40px;
     border-radius: 50px;
     box-shadow: 20px 20px rgba(80, 70, 45, 0.801);
